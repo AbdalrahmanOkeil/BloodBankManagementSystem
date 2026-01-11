@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.API", "BloodBank.API\BloodBank.API.csproj", "{BCD234F8-0737-4286-A0A3-74982318FDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Domain", "BloodBank.Domain\BloodBank.Domain.csproj", "{3CB5BDAA-9207-4FE8-A600-78FA424215AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Application", "BloodBank.Application\BloodBank.Application.csproj", "{F6A22505-711A-4F23-8CCB-B5C5FDAEA687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBank.Infrastructure", "BloodBank.Infrastructure\BloodBank.Infrastructure.csproj", "{FD5A185B-4B4A-475C-B428-F67445E0361D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCD234F8-0737-4286-A0A3-74982318FDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD234F8-0737-4286-A0A3-74982318FDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD234F8-0737-4286-A0A3-74982318FDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD234F8-0737-4286-A0A3-74982318FDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB5BDAA-9207-4FE8-A600-78FA424215AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB5BDAA-9207-4FE8-A600-78FA424215AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB5BDAA-9207-4FE8-A600-78FA424215AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB5BDAA-9207-4FE8-A600-78FA424215AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A22505-711A-4F23-8CCB-B5C5FDAEA687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A22505-711A-4F23-8CCB-B5C5FDAEA687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A22505-711A-4F23-8CCB-B5C5FDAEA687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A22505-711A-4F23-8CCB-B5C5FDAEA687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5A185B-4B4A-475C-B428-F67445E0361D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5A185B-4B4A-475C-B428-F67445E0361D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5A185B-4B4A-475C-B428-F67445E0361D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5A185B-4B4A-475C-B428-F67445E0361D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3379C51C-9A11-498F-A8FD-2553A4AF8088}
+	EndGlobalSection
+EndGlobal

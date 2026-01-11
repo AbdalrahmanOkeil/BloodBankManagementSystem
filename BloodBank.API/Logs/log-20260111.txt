@@ -1,0 +1,59 @@
+2026-01-11 12:20:13.308 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-01-11 12:20:13.506 +02:00 [INF] User string is trying to login
+2026-01-11 12:20:13.510 +02:00 [WRN] Login failed for string
+2026-01-11 12:20:13.518 +02:00 [ERR] Unhandled exception occured
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BloodBank.API.Controllers.AuthController.LoginAsync(LoginDTO loginDTO) in D:\Blood Bank System\BloodBank\BloodBank.API\Controllers\AuthController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BloodBank.API.Middlewares.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Blood Bank System\BloodBank\BloodBank.API\Middlewares\GlobalExceptionMiddleware.cs:line 23
+2026-01-11 12:20:50.224 +02:00 [INF] User string@string.com is trying to login
+2026-01-11 12:20:50.411 +02:00 [INF] User 56d4f41d-863c-4898-bff0-cdffdbbc3735 logged in successfully
+2026-01-11 12:37:22.379 +02:00 [INF] Register donor attempt for Final@test.com
+2026-01-11 12:37:22.658 +02:00 [INF] Donor 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca registered successfully
+2026-01-11 12:37:53.360 +02:00 [INF] User Final@test.com is trying to login
+2026-01-11 12:37:53.436 +02:00 [WRN] Login failed for Final@test.com
+2026-01-11 12:37:53.439 +02:00 [ERR] Unhandled exception occured
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BloodBank.API.Controllers.AuthController.LoginAsync(LoginDTO loginDTO) in D:\Blood Bank System\BloodBank\BloodBank.API\Controllers\AuthController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BloodBank.API.Middlewares.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Blood Bank System\BloodBank\BloodBank.API\Middlewares\GlobalExceptionMiddleware.cs:line 23
+2026-01-11 12:38:08.044 +02:00 [INF] User Final@test.com is trying to login
+2026-01-11 12:38:08.110 +02:00 [INF] User 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca logged in successfully
+2026-01-11 12:41:52.664 +02:00 [INF] Creating donor profile for user 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca
+2026-01-11 12:41:52.716 +02:00 [INF] Donor profile created successfully for user 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca
+2026-01-11 12:42:31.642 +02:00 [INF] User Final@test.com is trying to login
+2026-01-11 12:42:31.710 +02:00 [INF] User 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca logged in successfully
+2026-01-11 12:43:24.666 +02:00 [INF] User 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca is trying to create a donation
+2026-01-11 12:43:24.702 +02:00 [INF] Donation created successfully for user 186bf6bf-eafc-4ff9-9e6f-6f1b19e45aca
+2026-01-11 12:45:16.026 +02:00 [INF] User admin@bloodbank.com is trying to login
+2026-01-11 12:45:16.092 +02:00 [INF] User 3e8a9776-1ffa-4b8e-bcac-03789bf3dfbb logged in successfully
+2026-01-11 12:45:58.443 +02:00 [INF] Approving donation "6718b023-b8c5-493f-9141-7519020aa695"
+2026-01-11 12:45:58.517 +02:00 [INF] Donation "6718b023-b8c5-493f-9141-7519020aa695" approved.
+2026-01-11 12:48:48.128 +02:00 [INF] Register hospital attempt for FinalH@test.com
+2026-01-11 12:48:48.208 +02:00 [INF] Hospital 699ac0e2-1105-470b-9d12-4f33467e2ac5 registered successfully
+2026-01-11 12:49:55.529 +02:00 [INF] Creating hospital profile for user 699ac0e2-1105-470b-9d12-4f33467e2ac5
+2026-01-11 12:49:55.550 +02:00 [INF] Hospital profile created for user 699ac0e2-1105-470b-9d12-4f33467e2ac5
+2026-01-11 12:51:13.842 +02:00 [INF] Hospital 699ac0e2-1105-470b-9d12-4f33467e2ac5 is creating blood request
+2026-01-11 12:51:13.862 +02:00 [INF] Blood request "356a7f62-e78b-4878-a51c-4f5d86c53d79" is pending. Not enough stock.
+2026-01-11 12:51:49.683 +02:00 [INF] User admin@bloodbank.com is trying to login
+2026-01-11 12:51:49.749 +02:00 [INF] User 3e8a9776-1ffa-4b8e-bcac-03789bf3dfbb logged in successfully
+2026-01-11 12:52:00.262 +02:00 [INF] Approving blood request "356a7f62-e78b-4878-a51c-4f5d86c53d79"
+2026-01-11 12:52:00.284 +02:00 [WRN] Approve failed: insufficient stock for request "356a7f62-e78b-4878-a51c-4f5d86c53d79"
+2026-01-11 12:52:25.091 +02:00 [INF] Approving blood request "356a7f62-e78b-4878-a51c-4f5d86c53d79"
+2026-01-11 12:52:25.105 +02:00 [INF] Blood request "356a7f62-e78b-4878-a51c-4f5d86c53d79" approved successfully
