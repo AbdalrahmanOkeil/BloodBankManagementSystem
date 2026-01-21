@@ -5,3 +5,5 @@ obj/
 *.user
 *.suo
 *.vscode/
+Logs/
+*.txt
