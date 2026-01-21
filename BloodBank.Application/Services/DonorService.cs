@@ -5,7 +5,7 @@ using BloodBank.Application.Interfaces.Services;
 using BloodBank.Domain.Entities;
 using Microsoft.Extensions.Logging;
 
-namespace BloodBank.Infrastructure.Services
+namespace BloodBank.Application.Services
 {
     public class DonorService : IDonorService
     {

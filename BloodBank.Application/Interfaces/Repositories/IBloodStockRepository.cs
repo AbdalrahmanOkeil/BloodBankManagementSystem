@@ -7,7 +7,7 @@ namespace BloodBank.Application.Interfaces.Repositories
         Task<List<BloodStock>> GetAllAsync();
         Task<BloodStock?> GetByBloodTypeIdAsync(int bloodTypeId);
         Task IncreaseStockAsync(int bloodTypeId, int units);
-        Task DecreaseStockAsync(int bloodTypeId, int units);
+        Task DecreseStockAsync(int bloodTypeId, int units);
         Task SaveChangesAsync();
     }
 }

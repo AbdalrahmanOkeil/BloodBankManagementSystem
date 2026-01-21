@@ -7,7 +7,7 @@ using BloodBank.Domain.Enums;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 
-namespace BloodBank.Infrastructure.Services
+namespace BloodBank.Application.Services
 {
     public class DonationService : IDonationService
     {

@@ -4,7 +4,7 @@ using BloodBank.Application.Interfaces.Repositories;
 using BloodBank.Application.Interfaces.Services;
 using Microsoft.Extensions.Logging;
 
-namespace BloodBank.Infrastructure.Services
+namespace BloodBank.Application.Services
 {
     public class BloodStockService : IBloodStockService
     {
@@ -85,7 +85,7 @@ namespace BloodBank.Infrastructure.Services
                 return Result<bool>.Failure("Insufficient blood stock!");
             }
 
-            await _bloodStockRepository.DecreaseStockAsync(bloodTypeId, units);
+            await _bloodStockRepository.DecreseStockAsync(bloodTypeId, units);
             await _bloodStockRepository.SaveChangesAsync();
 
             _logger.LogInformation("Blood stock decreased successfully. BloodTypeId={bloodTypeId}", bloodTypeId);

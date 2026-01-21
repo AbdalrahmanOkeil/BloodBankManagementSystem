@@ -6,7 +6,7 @@ using BloodBank.Domain.Entities;
 using BloodBank.Domain.Enums;
 using Microsoft.Extensions.Logging;
 
-namespace BloodBank.Infrastructure.Services
+namespace BloodBank.Application.Services
 {
     public class BloodRequestService : IBloodRequestService
     {

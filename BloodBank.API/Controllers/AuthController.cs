@@ -15,7 +15,7 @@ namespace BloodBank.API.Controllers
             _authService = authService;
         }
 
-        [HttpPost("registerDonor")]
+        [HttpPost("register-donor")]
         public async Task<IActionResult> RegisterDonorAsync([FromBody] RegisterDonorDTO registerDonorDTO)
         {
             if (!ModelState.IsValid)
@@ -28,7 +28,7 @@ namespace BloodBank.API.Controllers
             return result.ToApiResponse();
         }
 
-        [HttpPost("registerHospital")]
+        [HttpPost("register-hospital")]
         public async Task<IActionResult> RegisterHospitalAsync([FromBody] RegisterHospitalDTO registerHospitalDTO)
         {
             if (!ModelState.IsValid)
@@ -55,7 +55,7 @@ namespace BloodBank.API.Controllers
             return result.ToApiResponse();
         }
 
-        [HttpGet("refreshToken")]
+        [HttpGet("refresh-token")]
         public async Task<IActionResult> RefreshToken()
         {
             var refreshToken = Request.Cookies["refreshToken"];
@@ -67,7 +67,7 @@ namespace BloodBank.API.Controllers
             return result.ToApiResponse();
         }
 
-        [HttpPost("revokeToken")]
+        [HttpPost("revoke-token")]
         public async Task<IActionResult> RevokeToken([FromBody] RevokeTokenDTO revokeTokenDTO)
         {
             var token = revokeTokenDTO.Token ?? Request.Cookies["refreshToken"];

@@ -12,7 +12,7 @@ namespace BloodBank.Infrastructure.Repositories
         {
             _context = context;
         }
-        public async Task DecreaseStockAsync(int bloodTypeId, int units)
+        public async Task DecreseStockAsync(int bloodTypeId, int units)
         {
             var stock = await GetByBloodTypeIdAsync(bloodTypeId);
 

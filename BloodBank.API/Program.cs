@@ -5,7 +5,7 @@ using BloodBank.Infrastructure.Helpers;
 using BloodBank.Infrastructure.Identity;
 using BloodBank.Infrastructure.Persistence;
 using BloodBank.Infrastructure.Seed;
-using BloodBank.Infrastructure.Services;
+using BloodBank.Application.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
